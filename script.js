@@ -41,7 +41,7 @@ function changeImage() {
   imageTag.style.backgroundImage = `url('${imageSource}')`;
   counter++;
 }
-setInterval(changeImage, 10000);
+setInterval(changeImage, 15000);
 
 function changeText() {
   let smH2P = boxText[count % boxText.length];
@@ -50,7 +50,7 @@ function changeText() {
   smH2.classList.toggle('project-animate');
   count++;
 }
-setInterval(changeText, 10000);
+setInterval(changeText, 15000);
 
 //Nav open and nav close
 const header = document.querySelector('header');
